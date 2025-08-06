@@ -1,0 +1,71 @@
+.index
+{
+    background-image: url(../images/ancient-bridge-home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav
+{
+    text-align: right;       
+}
+.h1
+{
+    font-size: 36px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+img
+{
+    position: relative;
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.contact-container
+{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px grey;
+    font-family: sans-serif;
+}
+.contact-form label
+{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:grey;
+}
+.contact-form input,.contact-form textarea
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid#ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.contact-form button
+{
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    background-color: #4a2c2a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.contact-form button:hover
+{
+    background: color #5e3736;
+}
